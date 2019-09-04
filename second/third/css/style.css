@@ -28,8 +28,8 @@ body {
 	
 #myContent{
 	position:absolute;
-	left:80px;
-	top:130px;
+	left:160px;
+	top:250px;
 	overflow:hidden;
 	text-shadow: 2px 3px 3px #000; 
 	font-family:Microsoft YaHei;

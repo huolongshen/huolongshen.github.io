@@ -22,30 +22,31 @@
 	<!-- 显示时间 -->
 	<script type="text/javascript" src="js/time.js"></script>
 	<!-- 设置文字跟随鼠标 -->
-	<script type="text/javascript" src="js/makesnake.js"></script>
+	<!-- <script type="text/javascript" src="js/makesnake.js"></script> -->
 </head>
 <body>
 	<!-- thanks for watching! -->
-	<span id="span0" class="spanstyle">T</span><span id="span1" class="spanstyle">h</span>
+<!-- 	<span id="span0" class="spanstyle">T</span><span id="span1" class="spanstyle">h</span>
 	<span id="span2" class="spanstyle">a</span><span id="span3" class="spanstyle">n</span>
 	<span id="span4" class="spanstyle">k</span><span id="span5" class="spanstyle">s</span><span id="span6" class="spanstyle">
 	</span><span id="span7" class="spanstyle">f</span><span id="span8" class="spanstyle">o</span><span id="span9" class="spanstyle">r</span>
 	<span id="span10" class="spanstyle"> </span><span id="span11" class="spanstyle">w</span>
 	<span id="span12" class="spanstyle">a</span><span id="span13" class="spanstyle">t</span><span id="span14" class="spanstyle">c</span><span id="span15" class="spanstyle">h</span>
-	<span id="span16" class="spanstyle">i</span><span id="span17" class="spanstyle">n</span><span id="span18" class="spanstyle">g</span><span id="span19" class="spanstyle">!</span>
-	<audio autoplay="autoplay" id="bgmMusic" controls="controls" loop="false">
+	<span id="span16" class="spanstyle">i</span><span id="span17" class="spanstyle">n</span><span id="span18" class="spanstyle">g</span><span id="span19" class="spanstyle">!</span> -->
+
+	<audio autoplay="autoplay" id="bgmMusic" loop="false">
 		<source src="./audio/bgm.mp3" type="audio/mp3" />
 	</audio>
 
 
 	<script type="text/javascript">
-		setTimeout(makesnake, 42000);
-			setInterval("toggleSound()",10);//自动播放音频，在js里面写好了方法
+		//setTimeout(makesnake, 42000);
+			setInterval("toggleSound()",1);//自动播放音频，在js里面写好了方法
 			var audio = document.getElementById("bgmMusic"); 
 			audio.loop = false;
-			audio.addEventListener('ended', function () { 
-				window.location.href = "third/index.html";
-			}, false);
+			// audio.addEventListener('ended', function () { 
+			// 	window.location.href = "third/index.html";
+			// }, false);
 		</script>
 		<!--#Header-->
 		<div id="header" style="opacity:0.85">
@@ -59,22 +60,13 @@
 		<div id="myContent">
 			<span id="blink" style="display: none;">_</span></div>
 			<div id="contentToWrite" style="display:none">
-				一时间不知道从哪说起,         <br>
-				真爱来了，我们要好好把    <br>
-				一时间不知道从哪说起,         <br>
-				真爱来了，我们要好好把握。不管面临多大的压力，<br>
-				不管前面的路如何崎岖.<br>
-				不管经历过什么,我仍坚信最浪漫的事就是和<br>
-				你一起慢慢变老.<br>
-				还记得否,曾经的点点滴滴，从相识到现在，<br>
-				从冷漠到关心,从谢绝到依赖，从生疏到相爱,<br>
-				一切似乎都是那么遥远,又似乎那么触手可及.<br>
-				正如某人说的那样,但求岁月静好,现世安稳.<br>
-				一生守候不是一句简单而苍白的山盟海誓，<br>
-				而是无数个平淡的日子同舟共济，相濡以沫.<br>
-				相信右下角的计时器,将永远继续下去,直至数据溢出.<br>
-				<br>
-				-----------------------Just for You, YaRu<br>
+				我一天一天明白你的平凡，<br>
+				同时却一天一天愈更深切地爱你。<br>
+				你如果照镜子，<br>
+				你不会看得见你特别好的所在，<br>
+				但你如走进我的心里来时，<br>
+				你一定能知道自己是怎样好法。<br>
+				---------------给我最爱的球球<br>
 			</div>
 			<script type="text/javascript">
 				writeContent(true);
